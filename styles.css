@@ -90,10 +90,9 @@ div {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-image: url('images/header-background.png');
+    background-image: url('images/header-background3.png');
     background-size: cover;
-    background-position: center;
-    background-blend-mode: darken;
+    background-position: bottom;
   }
   
   /* Section 1 styles */
@@ -228,9 +227,9 @@ div {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
-    background-image: url('images/footer-background.png');
+    background-image: url('images/footer-background3.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-blend-mode: darken;
   }
   
