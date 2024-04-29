@@ -17,7 +17,7 @@ div {
   /* Main container styles */
   .container {
     width:auto;
-    height: 3462px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -176,7 +176,7 @@ div {
   /* Section 3 styles */
   .section-3 {
     align-self: stretch;
-    height: 1784px;
+    height: min-content;
     background: #0F0F0F;
     flex-direction: column;
     justify-content: flex-start;
@@ -234,6 +234,9 @@ div {
   .footer .inner-footer {
     padding: 0 48px;
     display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
@@ -252,9 +255,10 @@ div {
   
   .footer .separator {
     flex: 1;
-    height: 0px;
-    border: 4px white solid;
-  }
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
+   }
   
   .footer .contact-info {
     height: 206px;
@@ -287,7 +291,7 @@ div {
 
   .showcase {
     width: 100%;
-    height: 1566px;
+    height: fit-content;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
