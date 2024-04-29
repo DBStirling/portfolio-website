@@ -292,6 +292,12 @@ div {
     word-wrap: break-word;
   }
 
+  .cta-btn.btn-image img {
+    width: 18px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
   .showcase {
     width: 100%;
     height: fit-content;
