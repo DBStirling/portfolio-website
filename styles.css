@@ -339,6 +339,20 @@ div {
     align-self: stretch;
     height: 720px;
     border-radius: 12px;
+    /* position: relative;
+    display: inline-flex; */
+}
+
+.image-container a {
+  display: flex;
+  width: 100%;
+  align-self: stretch;
+  border-radius: inherit;
+}
+
+.container a:hover img {
+  transform: rotate(2deg); /* Rotate the image on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
 }
 
 .image-container img {
