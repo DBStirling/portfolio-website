@@ -82,6 +82,14 @@ body {
     word-wrap: break-word;
     margin-left: 57px;
   }
+
+  .nav-link {
+    cursor: pointer;
+  }
+
+  .nav-link:hover {
+    font-style: italic;
+  }
   
   /* Main content styles */
   .main-content {

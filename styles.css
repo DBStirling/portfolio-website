@@ -20,7 +20,6 @@ div {
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-/* Change text color on hover */
 .text-link:hover {
     color: #c3c3c3;
 }
@@ -83,6 +82,14 @@ div {
     line-height: 20.80px;
     word-wrap: break-word;
     margin-left: 57px;
+  }
+
+  .nav-link {
+    cursor: pointer;
+  }
+
+  .nav-link:hover {
+    font-style: italic;
   }
   
   /* Main content styles */
