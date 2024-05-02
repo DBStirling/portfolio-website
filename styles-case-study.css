@@ -10,8 +10,17 @@ div {
 
 body {
     font-family: raleway, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
+    color: white;
+    line-height: 130%;
+}
+
+.heading {
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color:white;
 }
 
 /* Main container styles */
@@ -26,7 +35,7 @@ body {
 
   /* nav bar styles */
 
-  .nav-bar {
+  .nav-bar-header {
     align-self: stretch;
     height: min-content;
     display: flex;
@@ -35,7 +44,7 @@ body {
     align-items: flex-start;
   }
   
-  .nav-bar .nav-bar-contents {
+  .nav-bar-header .nav-bar-contents {
     align-self: stretch;
     padding: 24px 48px;
     background: #0B0A0B;
@@ -45,7 +54,7 @@ body {
     align-items: center;
   }
   
-  .nav-bar .logo {
+  .nav-bar-header .logo {
     color: white;
     font-size: 20px;
     font-family: Playfair Display;
@@ -55,7 +64,7 @@ body {
     word-wrap: break-word;
   }
   
-  .nav-bar .nav-links {
+  .nav-bar-header .nav-links {
     flex: 1;
     height: 21px;
     display: flex;
@@ -63,7 +72,7 @@ body {
     align-items: center;
   }
   
-  .nav-bar .nav-link {
+  .nav-bar-header .nav-link {
     text-align: center;
     color: white;
     font-size: 16px;
@@ -74,12 +83,79 @@ body {
     margin-left: 57px;
   }
   
-    /* Main content styles */
-    .main-content {
-        align-self: stretch;
-        background: #2c2c2c;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: column;
-      }
+  /* Main content styles */
+  .main-content {
+      align-self: stretch;
+      background: #2c2c2c;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+  .header {
+    background-image: url('images/MFP-header-background.png');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-image {
+    width: 80vw;
+    padding: 100px 0;
+  }
+
+  /* Actual Case Study Styles incoming */
+
+  .main-content {
+    align-self: stretch;
+    background: #0F0F0F;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 92px;
+    padding: 0 48px;
+  }
+
+  .introduction {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .title{
+    max-width: 1200px;
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    line-height: normal;
+  }
+
+  .context {
+    max-width: 800px;
+    flex-direction: row;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+
+  .context-left{
+    flex-direction: column;
+    width: 25%;
+    gap: 24px;
+  }
+  
+  .context-right{
+    flex-direction: column;
+    width: 65%;
+    gap: 8px;
+  }
+
+  .context-left-detail{
+    flex-direction: column;
+    gap: 8px;
+  }
+
