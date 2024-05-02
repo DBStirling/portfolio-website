@@ -106,7 +106,7 @@ li {
     }
 
   .header {
-    background-image: url('images/MFP-header-background.png');
+    background-image: url('images/mfp/header-background.png');
     background-size: cover;
     background-position: bottom;
     width: 100%;
