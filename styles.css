@@ -13,7 +13,19 @@ div {
   body {
     font-family: sans-serif;
   }
+
+  /* link styles */
   
+  .text-link {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Change text color on hover */
+.text-link:hover {
+    color: #c3c3c3;
+}
+
+
   /* Main container styles */
   .container {
     width:auto;
