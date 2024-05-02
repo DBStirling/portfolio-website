@@ -16,6 +16,9 @@ body {
     line-height: 130%;
 }
 
+li {
+  margin-bottom: 12px;
+}
 .heading {
   font-family: raleway, sans-serif;
   font-weight: 400;
@@ -204,17 +207,43 @@ body {
   white-space: nowrap;
 }
 
-
-  /* The problem section styles */
-
-.the-problem {
+.sub-section {
   flex-direction: column;
   gap: 72px;
   width: 100%;
   align-items: center;
 }
+
+  /* The problem section styles */
+
 .the-problem-body {
   max-width: 800px;
   flex-direction: column;
   gap: 24px;
+}
+
+.the-solution-body {
+  max-width: 1440px;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+}
+
+.solution-text {
+  flex-direction: column;
+  max-width: 584px;
+  gap: 72px;
+}
+
+.solution-item {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.solution-image-container img {
+  max-width: 600px;
+  align-self: stretch;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
