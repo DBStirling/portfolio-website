@@ -21,6 +21,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   color:white;
+  line-height: 130%;
 }
 
 /* Main container styles */
@@ -115,7 +116,7 @@ body {
     padding: 100px 0;
   }
 
-  /* Actual Case Study Styles incoming */
+  /* main-content styles */
 
   .main-content {
     align-self: stretch;
@@ -128,6 +129,8 @@ body {
     gap: 92px;
     padding: 0 48px;
   }
+
+  /* introduction and context styles */
 
   .introduction {
     flex-direction: column;
@@ -167,3 +170,51 @@ body {
     gap: 8px;
   }
 
+  /* Divider styles */
+.divider {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.left-side-divider {
+  width: 360px;
+  height: 0px;
+  border: 1px white solid;
+}
+
+.right-side-divider {
+  width: max-content;
+  gap: 24px;
+}
+
+.right-line-divider {
+  width: 100%;
+  height: 0px;
+  border: 1px white solid;
+}
+
+.divider-text {
+  font-size: 16px;
+  font-family: playfair display, serif;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+
+  /* The problem section styles */
+
+.the-problem {
+  flex-direction: column;
+  gap: 72px;
+  width: 100%;
+  align-items: center;
+}
+.the-problem-body {
+  max-width: 800px;
+  flex-direction: column;
+  gap: 24px;
+}
