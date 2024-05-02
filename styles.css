@@ -21,7 +21,7 @@ div {
 }
 
 .text-link:hover {
-    color: #c3c3c3;
+    font-style: italic;
 }
 
 
