@@ -133,6 +133,13 @@ li {
     padding: 0 48px;
   }
 
+  /* heading-text pair style */
+  
+  .ht-pair {
+    flex-direction: column;
+    gap: 24px;
+  }
+
   /* introduction and context styles */
 
   .introduction {
@@ -218,9 +225,9 @@ li {
 
 .the-problem-body {
   max-width: 800px;
-  flex-direction: column;
-  gap: 24px;
 }
+
+  /* The problem section styles */
 
 .the-solution-body {
   max-width: 1440px;
@@ -235,15 +242,39 @@ li {
   gap: 72px;
 }
 
-.solution-item {
+/* .solution-item {
   flex-direction: column;
   gap: 24px;
-}
+} */
 
 .solution-image-container img {
   max-width: 600px;
   align-self: stretch;
   height: 100%;
   width: 100%;
+  object-fit: cover;
+}
+
+/* User Research Sub-section styles */
+
+.user-research-body {
+  flex-direction: column;
+  gap: 72px;
+}
+
+.user-research-text {
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.scrollable-container {
+  width: 768px; /* Set a fixed width for the container */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  height: 432px;
+}
+
+.scrollable-content {
+  white-space: nowrap;
+  gap: 16px;
   object-fit: cover;
 }
