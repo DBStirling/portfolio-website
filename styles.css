@@ -18,7 +18,8 @@ div {
   
   .text-link {
     cursor: pointer; /* Change cursor to pointer on hover */
-}
+    text-decoration: none;
+  }
 
 .text-link:hover {
     font-style: italic;
