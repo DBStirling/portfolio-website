@@ -27,6 +27,10 @@ li {
   line-height: 130%;
 }
 
+a:-webkit-any-link {
+  color: rgb(110, 13, 180);
+}
+
 /* Main container styles */
 .container {
     width:auto;
@@ -294,4 +298,9 @@ li {
 .lit-analysis-body {
   flex-direction: column;
   max-width: 800px;
+}
+
+.lit-analysis-text {
+  flex-direction: column;
+  gap: 0;
 }
