@@ -254,6 +254,7 @@ a:-webkit-any-link {
 
 .solution-image-container img {
   max-width: 600px;
+  min-width: 400px;
   align-self: stretch;
   height: 100%;
   width: 100%;
@@ -322,9 +323,13 @@ a:-webkit-any-link {
 }
 
 .competitor-icon-container {
-  width: 840px;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+
+
 }
 
 .competitor-identifier {
