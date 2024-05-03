@@ -328,8 +328,6 @@ a:-webkit-any-link {
   justify-content: center;
   gap: 64px;
   flex-wrap: wrap;
-
-
 }
 
 .competitor-identifier {
@@ -358,3 +356,5 @@ a:-webkit-any-link {
   object-fit: cover;
   border-radius: 24px;
 }
+
+/* jobs to be done */
