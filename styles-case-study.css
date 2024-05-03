@@ -243,6 +243,7 @@ a:-webkit-any-link {
 .solution-text {
   flex-direction: column;
   max-width: 584px;
+  min-width: 500px;
   gap: 72px;
 }
 
@@ -295,6 +296,8 @@ a:-webkit-any-link {
   width: 100%;
 }
 
+/* lit analysis  */
+
 .lit-analysis-body {
   flex-direction: column;
   max-width: 800px;
@@ -303,4 +306,50 @@ a:-webkit-any-link {
 .lit-analysis-text {
   flex-direction: column;
   gap: 0;
+}
+
+/* competitive analysis */
+
+.competitive-analysis-body {
+  max-width: 840px;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+}
+
+.competitive-analysis-text {
+  max-width: 800px;
+}
+
+.competitor-icon-container {
+  width: 840px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.competitor-identifier {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.competitor-icon {
+  width: 116px;
+  height: 116px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.swot-container {
+  max-width: 840px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.swot-card {
+  width: 400px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 24px;
 }
