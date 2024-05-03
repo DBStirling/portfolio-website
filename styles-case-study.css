@@ -278,3 +278,20 @@ li {
   gap: 16px;
   object-fit: cover;
 }
+
+/* key pain points */
+
+.key-pain-points-body {
+  flex-direction: column;
+  gap: 64px;
+  max-width: 800px;
+}
+
+.pain-point {
+  width: 100%;
+}
+
+.lit-analysis-body {
+  flex-direction: column;
+  max-width: 800px;
+}
