@@ -25,6 +25,11 @@ li {
   font-size: 24px;
   color:white;
   line-height: 130%;
+  max-width: 800px;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 a:-webkit-any-link {
@@ -358,3 +363,42 @@ a:-webkit-any-link {
 }
 
 /* jobs to be done */
+
+.jobs-tbd-body {
+  flex-direction: column;
+  gap: 96px;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-tbd-text {
+  max-width: 800px;
+}
+
+.hmw-section {
+  gap: 24px;
+  flex-direction: column;
+}
+
+.hmw-indiv-section {
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hmw-container {
+  flex-direction: row;
+  width: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hmw {
+  width: 180px;
+  height: 207px;
+  object-fit: cover;
+}
+
+.funky-sizing{
+  transform: scale(1.1);
+}
