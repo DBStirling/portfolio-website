@@ -30,6 +30,7 @@ li {
 
 .centered-text {
   text-align: center;
+  justify-content: center;
 }
 
 a:-webkit-any-link {
@@ -401,4 +402,68 @@ a:-webkit-any-link {
 
 .funky-sizing{
   transform: scale(1.1);
+}
+
+/* navigation issues section */
+
+.nav-issues-body {
+  max-width: 1120px;
+  gap: 80px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.nav-issue {
+  gap: 48px;
+  max-width: 1000px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-issue-text {
+  width: 45%;
+  min-width: 400px;
+}
+
+.nav-issue-img {
+  width: 50%;
+  min-width: 400px;
+  object-fit: scale-down;
+}
+
+.nav-issue-visual {
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-issue-iterations {
+  flex-direction: row;
+  gap: 36px;
+}
+
+.iteration {
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  gap: 24px;
+  justify-content: center;
+}
+
+.iteration-1-text {
+  width: 40%;
+  min-width: 200px;
+  align-self: flex-end;
+}
+
+.iteration-2-text {
+  width: 40%;
+  min-width: 200px;
+  /* align-self: flex-end; */
+}
+
+.iteration-img {
+  object-fit: scale-down;
+  min-width: 200px;
+  width: 50%;
 }
