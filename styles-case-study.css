@@ -500,3 +500,22 @@ a:-webkit-any-link {
 
 /* prototype */
 
+/* N/A */
+
+/* Reflection */
+
+.reflection-body {
+  gap: 48px;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.reflection-header {
+  gap: 24px;
+  flex-direction: row;
+}
+
+.reflection-icon {
+  width: 32px;
+  object-fit: scale-down;
+}
