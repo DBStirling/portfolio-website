@@ -467,3 +467,33 @@ a:-webkit-any-link {
   min-width: 200px;
   width: 50%;
 }
+
+/* cc styles */
+
+.cc-body {
+  max-width: 1000px;
+  gap: 48px;
+}
+
+.cc-text {
+  max-width: 648px;
+  gap: 64px;
+}
+
+.cc-item-container {
+  flex-direction: column;
+  gap: 64px;
+  max-width: 648px;
+}
+
+.cc-img-container {
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 324px;
+  min-width: 200px;
+}
+
+.cc-img {
+  width: 100%;
+  object-fit: scale-down;
+}
