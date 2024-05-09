@@ -73,6 +73,7 @@ div {
     align-self: stretch;
     padding: 24px 48px;
     background: #0B0A0B;
+    color: #0B0A0B;
     border-bottom: 1px solid;
     display: flex;
     justify-content: space-between;
