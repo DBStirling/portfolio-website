@@ -376,11 +376,13 @@ div {
   width: 100%;
   align-self: stretch;
   border-radius: inherit;
+  cursor: pointer;
 }
 
-.container a:hover img {
+.image-container a:hover img {
   transform: rotate(2deg); /* Rotate the image on hover */
-  transition: transform 0.3s ease; /* Smooth transition */
+  transition: transform 0.3s ease;
+
 }
 
 .image-container img {
