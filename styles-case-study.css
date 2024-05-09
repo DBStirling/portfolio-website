@@ -296,6 +296,7 @@ a:-webkit-any-link {
 
 .scrollable-container {
   width: 768px; /* Set a fixed width for the container */
+  min-width: 500px;
   overflow-x: auto; /* Enable horizontal scrolling */
   height: 432px;
 }
