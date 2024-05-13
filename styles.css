@@ -15,6 +15,10 @@ div {
     color: white;
   }
 
+  a {
+    text-decoration: none;
+  }  
+
   button {
     text-decoration-color: white;
     background-color: rgba(0, 0, 0, 0);
