@@ -16,6 +16,15 @@ body {
     line-height: 130%;
 }
 
+button {
+  text-decoration-color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 li {
   margin-bottom: 12px;
 }
@@ -194,9 +203,11 @@ a:-webkit-any-link {
 
   #scroll-button {
     font-size: 20px;
+    color: white;
     padding: 24px 64px;
     align-items: center;
     border-radius: 64px;
+    border: 2px white solid;
     text-align: center;
     transition: transform 0.3s ease;
   }
