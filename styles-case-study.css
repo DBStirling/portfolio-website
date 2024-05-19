@@ -139,6 +139,16 @@ a:-webkit-any-link {
     align-items: center;
   }
 
+  .header-dm {
+    background-image: url('images/dm/header-background.png');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+  }
+
   .header-image {
     width: 80vw;
     padding: 100px 0;
