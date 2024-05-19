@@ -140,13 +140,16 @@ a:-webkit-any-link {
   }
 
   .header-dm {
-    background-image: url('images/dm/header-background.png');
+    background-image: url('images/dm/DM-header-background2.png');
     background-size: cover;
     background-position: bottom;
+    background-color: #0F0F0F;
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 64px 24px;
+    padding: 100px 0;
+    opacity: 98.5%;    
+
   }
 
   .header-image {
@@ -192,6 +195,7 @@ a:-webkit-any-link {
   }
 
   .context {
+    justify-content: center;
     max-width: 800px;
     flex-direction: row;
     gap: 48px;
@@ -275,6 +279,16 @@ a:-webkit-any-link {
 
 .the-problem-body {
   max-width: 800px;
+}
+
+.the-problem-body-dm {
+  max-width: 1000px;
+  gap: 64px;
+  flex-direction: column;
+}
+
+.the-problem-text-dm {
+  flex-direction: column;
 }
 
   /* The problem section styles */
