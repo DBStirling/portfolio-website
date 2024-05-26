@@ -523,6 +523,9 @@ div {
   justify-content: center;
   align-items: center;
   gap: 64px;
+  padding-top: 220px;
+  padding-bottom: 220px;
+
 }
 
 .about-header .heading {
@@ -553,9 +556,17 @@ div {
 
 .timeline {
   position: relative;
-  max-width: 1200px;
-  margin: 100px;
+  max-width: 1000px;
+  /* margin: 100px; */
   flex-direction: column;
+}
+
+.timeline-container {
+  width: 100%;
+  padding: 0 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-tl {
@@ -595,7 +606,7 @@ div {
 
 .container-tl img {
   position: absolute;
-  width: 40px;
+  height: 40px;
   border: 50%;
   right: -20px;
   top: 32px;
@@ -692,3 +703,15 @@ div {
   }
 }
   
+.sub-heading {
+    color: white;
+    font-size: 64px;
+    font-family: Playfair Display, Serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 129.60px;
+    word-wrap: break-word;  
+    padding-top: 64px;
+    padding-bottom: 64px;
+    /* width: 1000px; */
+}
