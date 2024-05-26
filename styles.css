@@ -133,7 +133,7 @@ div {
   /* Main content styles */
   .main-content {
     align-self: stretch;
-    background: #2c2c2c;
+    background: #0F0E0F;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -513,3 +513,182 @@ div {
   justify-content: space-between;
   font-family: Raleway, sans-serif;
 }
+
+/* about page */
+
+.about-header {
+  flex-direction: column;
+  /* margin-top: 72px;
+  margin-bottom: 72px; */
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.about-header .heading {
+  max-width: 1000px;
+  width: 100%;
+  color: white;
+  font-size: 144px;
+  font-family: Playfair Display, Serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 129.60px;
+  word-wrap: break-word;
+  justify-self: start;
+}
+
+.about-header .section-description {
+  max-width: 1000px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* timeline */
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px;
+  flex-direction: column;
+}
+
+.container-tl {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+}
+
+@keyframes movedowm {
+  0%{
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.text-box {
+  padding: 20px 30px;
+  background: #2c2c2c;
+  position: relative;
+  border-radius: 6px;
+  font-size: 16px;
+  flex-direction: column;
+}
+
+.left-container {
+  left: 0;
+}
+
+.right-container {
+  left: 50%;
+}
+
+.container-tl img {
+  position: absolute;
+  width: 40px;
+  border: 50%;
+  right: -20px;
+  top: 32px;
+}
+
+.right-container img{
+  left: -20px;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: white;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 100%;
+  }
+}
+
+.text-box h2 {
+  font-weight: 600;
+}
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #2c2c2c;
+  right: -15px;
+}
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #2c2c2c;
+  left: -15px;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline {
+    margin: 50px auto;
+  }
+  .timeline::after{
+    left: 31px;
+  }
+  .container-tl{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text-box small {
+    margin-bottom: 10px;
+  }
+  .right-container{
+    left: 0;
+  }
+  .left-container img, .right-container img{
+    left: 10px;
+  }
+  .left-container-arrow {
+    border-right: 15px solid #2c2c2c;
+    border-left: 0;
+    left: -15px;
+  }
+  .right-container-arrow {
+    border-right: 15px solid #2c2c2c;
+    border-left: 0;
+    right: 0px;
+  }
+}
+  
