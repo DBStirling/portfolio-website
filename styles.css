@@ -64,6 +64,7 @@ div {
 
   /* Main container styles */
   .container {
+    overflow-x: hidden;
     width:auto;
     height: fit-content;
     display: flex;
