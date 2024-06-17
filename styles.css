@@ -74,6 +74,21 @@ div {
   }
   
   /* Header styles */
+
+  @media only screen and (max-width: 600px) {
+    .inner-header .logo {
+      display: none;
+    }
+
+    .header .nav-links {
+      justify-content: space-between !important;
+    }
+
+    .header .nav-link {
+      margin-left: 0px !important;
+    }
+  }
+
   .header {
     align-self: stretch;
     height: min-content;
@@ -132,6 +147,12 @@ div {
   }
   
   /* Main content styles */
+  @media only screen and (max-width: 600px) {
+    .intro-page {
+      padding: 48px !important;
+    }
+  }
+
   .main-content {
     align-self: stretch;
     background: #0F0E0F;
@@ -155,10 +176,25 @@ div {
   }
   
   /* Section 1 styles */
+
+  @media only screen and (max-width: 600px) {
+    .section-1 .heading {
+        font-size: 92px !important;
+        line-height: 92px !important;
+    }
+    .section-1 .section-description {
+      font-size: 16px !important;
+      line-height: 20px !important;
+    }
+    .section-1 {
+      gap: 24px !important;
+      margin: 64px 0;
+    }
+}   
+
   .section-1 {
     flex-direction: column;
-    margin-top: 72px;
-    margin-bottom: 72px;
+    margin: 72px 0;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 51px;
@@ -175,7 +211,7 @@ div {
   }
   
   .section-1 .section-description {
-    width: 399px;
+    max-width: 399px;
     color: white;
     font-size: 20px;
     font-family: Raleway, sans-serif;
@@ -185,6 +221,22 @@ div {
   }
   
   /* Section 2 styles */
+  @media only screen and (max-width: 600px) {
+    .section-2 {
+      padding-top: 0 !important;
+    }
+
+    .section-2 .info {
+      align-items: flex-start !important;
+    }
+    .section-2 .role {
+      font-size: 12px !important;
+    }
+    .section-2 .info .experience .label {
+      font-size: 12px !important;
+    } 
+  }
+
   .section-2 {
     flex: 1;
     padding-top: 72px;
@@ -234,6 +286,17 @@ div {
   }
   
   /* Section 3 styles */
+  @media only screen and (max-width: 600px) {
+    .section-3 .sub-section .heading {
+      font-size: 48px !important;
+      line-height: 48px !important;
+    }
+    .section-3 .sub-section .section-description {
+      font-size: 16px !important;
+      line-height: 20px !important;
+    }
+  }
+
   .section-3 {
     align-self: stretch;
     height: min-content;
@@ -280,6 +343,39 @@ div {
   }
   
   /* Footer styles */
+@media only screen and (max-width: 600px) {
+  .footer .cta {
+    font-size: 124px !important;
+    line-height: 116px !important;
+  }
+  .separator {
+    display: none !important;
+  }
+  .footer .contact-info {
+    width: 100% !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+    justify-content: start !important;
+    flex-direction: column !important;
+    height: fit-content;
+  }
+  .footer .contact-info .cta-btn {
+    padding: 8px 12px !important;
+    width: 264px !important;
+  }
+  .footer .inner-footer {
+    flex-direction: column;
+    gap: 60px !important;
+  }
+  .footer .contact-info .cta-btn .text {
+    font-size: 12px;
+  }
+  .sub-footer {
+    display: none !important;
+  }
+
+}
+
   .footer {
     align-self: stretch;
     height: 805px;
@@ -306,7 +402,7 @@ div {
   }
   
   .footer .cta {
-    width: 364px;
+    max-width: 364px;
     color: white;
     font-size: 148px;
     font-family: Playfair Display, Serif;
@@ -380,7 +476,7 @@ div {
 
 .image-container {
     align-self: stretch;
-    height: 720px;
+    /* height: 720px; */
     border-radius: 12px;
     /* position: relative;
     display: inline-flex; */
@@ -406,6 +502,29 @@ div {
     width: -webkit-fill-available;
     object-fit: cover;
     border-radius: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .date {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+  .tag {
+    display: none !important;
+  }
+  .circle {
+    display: none !important;
+  }
+  .tag-container{
+    display: none !important;
+  }
+  .description {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .showcase {
+    gap: 56px;
+  }
 }
 
 .content {
