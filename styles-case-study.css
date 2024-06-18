@@ -52,6 +52,7 @@ a:-webkit-any-link {
 
 /* Main container styles */
 .container {
+    overflow-x: hidden;
     width:auto;
     height: fit-content;
     display: flex;
@@ -61,6 +62,20 @@ a:-webkit-any-link {
   }
 
   /* nav bar styles */
+
+  @media only screen and (max-width: 600px) {
+    .nav-bar-header .logo {
+      display: none;
+    }
+
+    .nav-links {
+      justify-content: space-between !important;
+    }
+
+    .nav-link {
+      margin-left: 0px !important;
+    }
+  }
 
   .nav-bar-header {
     align-self: stretch;
@@ -179,6 +194,124 @@ a:-webkit-any-link {
   }
 
   /* introduction and context styles */
+
+  @media only screen and (max-width: 600px) {
+    .title {
+      font-size: 20px !important;
+    }
+    .header-image {
+      padding: 48px 0;
+    }
+    .context-left {
+      width: 100% !important;
+    }
+    .context-right {
+      width: 100% !important;
+    }
+    .heading {
+      font-size: 20px !important;
+    }
+    body {
+      font-size: 14px !important;
+      line-height: 18px !important;
+    }
+    .introduction {
+      gap: 48px;
+    }
+    .left-side-divider {
+      display: none !important;
+    }
+    .the-solution-body {
+      flex-direction: column-reverse !important;
+      width: 100%;
+    }
+    .solution-image-container img {
+      width: 80vw !important;
+      max-width: 500px !important;
+    }
+    .solution-text {
+      min-width: 0px !important;
+    }
+    .user-research-body {
+      width: 80vw;
+    }
+    .user-research-text {
+      width: 80vw !important;
+      /* max-width: ; */
+    }
+    .scrollable-container {
+      /* width: 300px !important;
+      min-width: 0px !important; */
+      min-width: 0px !important;
+      width: 300px !important;
+      height: 200px !important;
+      min-height: 150px;
+    }
+    .interview-card {
+      width: 300px !important;
+      height: 180px;
+    }
+    .scrollable-container {
+      height: auto;
+      min-height: 150px;
+      width: 100%;
+    }
+    .scrollable-content {
+      width: 90vw;
+    }
+    .competitive-analysis-body {
+      width: 90vw;
+    }
+    .competitive-analysis-text {
+      max-width: 80vw !important;
+      /* width: 100%; */
+    }
+    .swot-container {
+      width: 90vw;
+    }
+    .swot-card {
+      width: 90vw !important;
+      height: 210px !important;
+    }
+    .nav-issues-body {
+      width: 100% !important;
+    }
+    .nav-issue {
+      width: 100% !important;
+    }
+    .nav-issue-text {
+      min-width: 0px !important;
+      width: 100% !important;
+    }
+    .nav-issue-img {
+      width: 100% !important;
+      min-width: 0px !important;
+    }
+    .nav-issue-iterations {
+      flex-direction: column !important;
+    }
+    .iteration {
+      width: 100% !important;
+    }
+    .cc-body {
+      flex-direction: column !important;
+    }
+    iframe {
+      width: 80vw !important;
+      height: 750px !important;
+    }
+    #scroll-button {
+      font-size: 14px !important;
+      padding: 24px !important;
+    }
+    .the-problem-text-dm {
+      width: 100%;
+    }
+    .the-problem-body-dm {
+      max-width: 80vw !important;
+
+    }
+  }
 
   .introduction {
     flex-direction: column;
@@ -576,6 +709,39 @@ a:-webkit-any-link {
 }
 
   /* Footer styles */
+  @media only screen and (max-width: 600px) {
+    .footer .cta {
+      font-size: 124px !important;
+      line-height: 116px !important;
+      width: 100% !important;
+    }
+    .separator {
+      display: none !important;
+    }
+    .footer .contact-info {
+      width: 100% !important;
+      gap: 20px !important;
+      flex-wrap: wrap !important;
+      justify-content: start !important;
+      flex-direction: column !important;
+      height: fit-content;
+    }
+    .footer .contact-info .cta-btn {
+      padding: 8px 12px !important;
+      width: 264px !important;
+    }
+    .footer .inner-footer {
+      flex-direction: column;
+      gap: 60px !important;
+    }
+    .footer .contact-info .cta-btn .text {
+      font-size: 12px;
+    }
+    .sub-footer {
+      display: none !important;
+    }  
+  }
+
   .footer {
     align-self: stretch;
     height: 805px;
