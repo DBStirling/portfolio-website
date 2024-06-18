@@ -296,7 +296,7 @@ a:-webkit-any-link {
     .cc-body {
       flex-direction: column !important;
     }
-    iframe {
+    .actual-prototype {
       width: 80vw !important;
       height: 750px !important;
     }
@@ -309,7 +309,6 @@ a:-webkit-any-link {
     }
     .the-problem-body-dm {
       max-width: 80vw !important;
-
     }
   }
 
